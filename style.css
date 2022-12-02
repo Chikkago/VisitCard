@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+body {
+  background: #6c6464;
+  width: 98%;
+  height: 100vh;
+}
+body .card {
+  width: 800px;
+  height: 400px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+  
+}
+body .card_left {
+  width: 40%;
+  height: 400px;
+  float: left;
+  overflow: hidden;
+  background: transparent;
+}
+body .card_left img {
+  width: 50%;
+  height: auto;
+  margin-top: -100px;
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  position: absolute;
+}
+body .card_right {
+  width: 60%;
+  float: left;
+  background: tran;
+  height: 400px;
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+}
+body .card_right h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 40px;
+  margin: 30px 0 0 0;
+  padding: 0 0 0 40px;
+  letter-spacing: 1px;
+}
+body .card_right .icons {
+  color: white;
+  font-size: x-large;
+  margin: 100px;
+  float: right;
+  transform: translate(75px, 15px);
+  
+}
+body .card_right .icons .btn-telegram {
+  color: white;
+}
+body .card_right .icons .btn-instagram {
+  color: white;
+}
+body .card_right .icons .btn-whatsapp {
+  color: white;
+}
+body .card_right .icons .btn-discord {
+  color: white;
+}
+
+body .card_right__review p {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  padding: 0 40px 0 40px;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+  line-height: 20px;
+}
+
